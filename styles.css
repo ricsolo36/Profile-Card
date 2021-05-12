@@ -1,0 +1,45 @@
+:root {
+  font-size: 18px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Kumbh Sans', sans-serif;
+  color: hsl(0, 11%, 12%);
+}
+
+section {
+  background: hsl(185, 75%, 39%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.card {
+  width: 350px;
+  background: white;
+  overflow: hidden;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.card-header {
+  background-image: url(images/bg-pattern-card.svg);
+  background-size: cover;
+  height: 150px;
+}
+
+.img-holder {
+  border-radius: 50%;
+  border: 5px solid white;
+  overflow: hidden;
+  width: 95px;
+  height: 95px;
+}
